@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 import io # For handling bytes data as a file-like object
 import pdfplumber # For parsing PDF text
 
-import utiles.google_drive_utils as google_drive_utils
-import utiles.mongo_utils as mongo_utils
+import utils.google_drive_utils as google_drive_utils
+import utils.mongo_utils as mongo_utils
 
 # Configure basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(module)s - %(message)s')

@@ -1,2 +1,8 @@
 token.json
 credentials.json
+.env
+
+
+# Ignore all .pyc files (compiled Python files)
+__pycache__/
+*.py[cod]
